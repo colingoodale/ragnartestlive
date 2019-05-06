@@ -10,7 +10,7 @@ var db = {};
 
 if (config.use_env_variable) {
   var sequelize = new Sequelize(process.env[config.use_env_variable]);
-  console.log(process.env);
+  console.log(process.env[config.ude_env_variable]);
 } else {
   var sequelize = new Sequelize(
     config.database,
