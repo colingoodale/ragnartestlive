@@ -4,17 +4,17 @@
     "password": "root",
     "database": "ragnar_db",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "postgres"
   },
   "test": {
     "username": "root",
     "password": "root",
     "database": "ragnar_db",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "postgres"
   },
   "production": {
     "use_env_variable": "mysql://rywcr2216ytwj96n:qm8t2n3m1x1od7jz@lgg2gx1ha7yp2w0k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/j7tl1gluuwhd0bd5",
-    "dialect": "mysql"
+    "dialect": "postgres"
   }
 }
